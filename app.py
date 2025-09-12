@@ -114,7 +114,7 @@ with st.expander("ℹ️ About This Tool"):
     - Content meant to hurt or embarrass
     
     **How it works:**
-    - Uses LoRA-fine-tuned HateBERT model
+    - Uses Fine-tuned HateBERT model
     - Trained specifically on cyberbullying datasets
     - Analyzes text patterns and context
     - Provides confidence scores
@@ -122,4 +122,4 @@ with st.expander("ℹ️ About This Tool"):
 
 # Footer
 st.markdown("---")
-st.markdown("🔬 Built with LoRA-fine-tuned HateBERT | 🎯 Specialized for Cyberbullying Detection")
+st.markdown("🔬 Built with Fine-tuned HateBERT | 🎯 Specialized for Cyberbullying Detection")
