@@ -1,6 +1,6 @@
 # 🛡️ Cyberbullying Detection System
 
-AI-powered detection of cyberbullying and online harassment using LoRA-fine-tuned HateBERT.
+AI-powered detection of cyberbullying and online harassment using Fine-tuned HateBERT.
 
 ## 🚀 Live Demo
 
@@ -9,7 +9,7 @@ AI-powered detection of cyberbullying and online harassment using LoRA-fine-tune
 ## ✨ Features
 
 - Real-time cyberbullying detection
-- LoRA-fine-tuned HateBERT model
+- Fine-tuned HateBERT model
 - Simple web interface
 - Confidence scores for predictions
 - Educational examples
@@ -26,9 +26,9 @@ Cyberbullying includes:
 ## 🛠️ Tech Stack
 
 - **Frontend**: Streamlit
-- **Model**: HateBERT + LoRA (Domain-adapted for cyberbullying)
+- **Model**: Finetuned HateBERT
 - **Framework**: PyTorch, Transformers
-- **Training**: Cyberbullying-specific datasets
+- **Training**: AMiCA data
 
 ## 🔧 Local Setup
 
@@ -36,3 +36,4 @@ Cyberbullying includes:
    ```bash
    git clone https://github.com/yourusername/cyberbullying-detector.git
    cd cyberbullying-detector
+
